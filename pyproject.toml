@@ -1,7 +1,7 @@
 [build-system]
 requires = [
   "setuptools>=61",
-  "build-rules @ https://github.com/Millstone123/build-rules",
+  "build-rules @ https://github.com/Millstone123/build-rules/releases/download/v0.1.0/build_rules-0.1.0-py3-none-any.whl",
 ]
 build-backend = "setuptools.build_meta"
 
