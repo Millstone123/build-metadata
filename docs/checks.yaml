@@ -1,0 +1,5 @@
+checks:
+  - name: version-consistent
+    description: Version numbers match across files
+  - name: deps-pinned
+    description: Dependencies have version constraints

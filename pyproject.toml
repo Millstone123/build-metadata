@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "build-metadata"
+version = "0.1.0"
+description = "Build system metadata consistency validator"
+dependencies = ["pytest>=7.0", "pyyaml>=6.0"]
+
+[project.entry-points.pytest11]
+build_meta_check = "build_meta.plugin"
